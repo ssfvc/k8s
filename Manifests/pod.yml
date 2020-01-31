@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-pod
+  name: maha-pod
 spec:
   containers:
-    - name: first-container
+    - name: maha-container
       image: nginx
       ports:
       - containerPort: 80
